@@ -3,7 +3,9 @@
         <div class="p-4">
             <h3>Dashboard</h3>
             <ul class="nav flex-column">
-                <li class="nav-item"><a href="#" class="nav-link text-white">Home</a></li>
+                <li class="nav-item"><a href="{{route('Dashboard')}}" class="nav-link text-white">Dashboard</a></li>
+                <li class="nav-item"><a href="{{route('Daftar-Buku')}}" class="nav-link text-white">Daftar Buku</a></li>
+                <li class="nav-item"><a href="{{route('Daftar-Penulis')}}" class="nav-link text-white">Daftar Penulis</a></li>
                 <li class="nav-item">
                     <a href="#" class="nav-link text-white" data-bs-toggle="collapse" data-bs-target="#profileSubmenu">
                         Profile <i class="bi bi-chevron-down"></i>

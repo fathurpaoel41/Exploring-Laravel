@@ -5,7 +5,7 @@
         </button>
         <div>
             <span>User Name</span>
-            <a href="#" class="btn btn-outline-light ms-2">Logout</a>
+            <a href="{{ route('Authlogout') }}" class="btn btn-outline-light ms-2">Logout</a>
         </div>
     </div>
 </header>
